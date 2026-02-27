@@ -32,5 +32,3 @@ All findings are exploratory and should be interpreted as correlations rather th
 * Lujun
 * Brooke
 
-
-如果你想再“学生味”一点或者再“专业一点点”，我可以再微调一个版本给你。
