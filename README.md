@@ -8,13 +8,20 @@ The goal of this analysis is to identify potential risk drivers and uncover mean
 
 This work was completed as part of a course EDA case study.
 
+The dataset includes both current loan application data and previous loan history, allowing us to examine how past credit behavior may influence current repayment outcomes.
+
+---
+
 ## What We Explored
 
-* Overall distribution of the repayment outcome
-* Key applicant characteristics (e.g., income, employment-related variables)
-* Loan features such as loan amount, term, and pricing indicators
-* Credit history variables and their relationship to default
-* Basic comparisons between borrower groups
+* Overall distribution of the repayment outcome and class imbalance
+* Key applicant characteristics (e.g., income, demographics, asset ownership)
+* Loan features such as credit amount and related financial variables
+* Credit bureau request behavior and prior application history
+* Interaction effects between income and loan size
+* Basic comparisons between borrower groups to identify higher-risk segments
+
+---
 
 ## Approach
 
@@ -23,12 +30,16 @@ The analysis includes:
 * Data cleaning and missing value checks
 * Summary statistics and distribution plots
 * Outcome-based comparisons across key variables
+* Aggregation of historical application data and merge with current records
 * Visualization of patterns to support interpretation
 
-All findings are exploratory and should be interpreted as correlations rather than causal relationships.
+All findings are exploratory and should be interpreted as correlations rather than causal relationships. The repository contains the notebook with code, a summary slide deck of key findings, and this README overview.
+
+---
 
 ## Authors
 
 * Lujun
 * Brooke
+
 
