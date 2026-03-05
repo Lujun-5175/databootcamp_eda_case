@@ -41,6 +41,5 @@ All findings are exploratory and should be interpreted as correlations rather th
 
 * Lujun
 * Brooke
-* Rowaid
 
 
